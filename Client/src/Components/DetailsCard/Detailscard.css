@@ -1,0 +1,26 @@
+
+.DetailsCard-Container{
+    width: 40vh;
+    height: 20vh;
+    border-radius: 8px;
+    background-color: #ffff;
+    border: 1px solid rgb(228, 226, 226);
+}
+
+.card-content{
+    display:flex;
+    min-height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content h1{
+    font-size: 20px;
+}
+
+.card-title{
+    color: #aeacac;
+    font-size: 18px;
+    margin-top: 1.5vh;
+}

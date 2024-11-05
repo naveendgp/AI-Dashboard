@@ -1,0 +1,45 @@
+
+.Sidenav-container{
+    width: 35vh;
+    padding: 10px;
+    min-height: 99vh;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.menu-items .Link{
+    padding: 1.2vh;
+    font-size: 17px;
+    border-radius: 9px;
+    margin-top: 1.3vh;
+    color: #025864;
+    margin-left: 2vh;
+    outline: none;
+    transition: .1s;
+}
+
+.menu-items .Link:hover{
+    background-color: #4B7EFF;
+    color: white;
+}
+
+.menu-items .Link:focus{
+    background-color: #4B7EFF;
+    color: white;
+}
+
+
